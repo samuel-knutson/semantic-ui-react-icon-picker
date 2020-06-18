@@ -13,18 +13,16 @@ npm install --save semantic-ui-react-icon-picker
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useState } from 'react';
+import { IconPicker } from 'semantic-ui-react-icon-picker';
+import 'semantic-ui-react-icon-picker/dist/index.css';
 
-import MyComponent from 'semantic-ui-react-icon-picker'
-import 'semantic-ui-react-icon-picker/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const Example = () => {
+  const [icon, setIcon] = useState();
+  return <IconPicker value={icon} onChange={setIcon} />;
+};
 ```
 
 ## License
 
-MIT © [samuel-knutson](https://github.com/samuel-knutson)
+MIT © [Sam Knutson](https://github.com/samuel-knutson)

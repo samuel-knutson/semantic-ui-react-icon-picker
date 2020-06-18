@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -49,5 +50,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
