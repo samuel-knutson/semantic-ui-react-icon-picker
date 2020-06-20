@@ -20,7 +20,7 @@ const IconPicker = ({ value, onChange }) => (
         icon: icon,
         className: styles['icon-picker-item']
       }))}
-      onChange={(e, { value }) => onChange(value)}
+      onChange={(e, { value }) => onChange && onChange(value)}
     />
   </div>
 );
