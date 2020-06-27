@@ -3,7 +3,7 @@ import { Dropdown } from 'semantic-ui-react';
 import { icons } from './icons';
 import styles from './styles.module.css';
 
-const IconPicker = ({ value, onChange }) => (
+const IconDropdown = ({ value, onChange }) => (
   <div className={styles['icon-picker']}>
     <Dropdown
       placeholder='Select an icon...'
@@ -20,9 +20,9 @@ const IconPicker = ({ value, onChange }) => (
         icon: icon,
         className: styles['icon-picker-item']
       }))}
-      onChange={(e, { value }) => onChange && onChange(value)}
+      onChange={(e, { value }) => onChange(value)}
     />
   </div>
 );
 
-export default IconPicker;
+export default IconDropdown;

@@ -1,1 +1,2 @@
-export { default as IconPicker } from './IconPicker';
+export { default as IconDropdown } from './IconDropdown';
+export { default as IconPickerModal } from './IconPickerModal';
