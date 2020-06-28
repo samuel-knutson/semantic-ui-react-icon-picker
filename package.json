@@ -54,5 +54,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "react-infinite-scroll-component": "^5.0.5"
+  }
 }
