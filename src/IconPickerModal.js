@@ -74,7 +74,7 @@ class IconPickerModal extends React.Component {
             <Button
               icon={icon}
               onClick={() => {
-                onChange(icon);
+                onChange && onChange(icon);
                 this.close();
               }}
             />
